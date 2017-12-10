@@ -3,4 +3,7 @@ const webpack = require('webpack')
 const path = require('path')
 const webpackConfig = require('./webpack.base.conf')
 
-// const app = express()
+const server = express()
+const compiler = webpack(webpackConfig)
+
+const 
